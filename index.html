@@ -7,18 +7,19 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div>
-    <h1>Miguel Rico Ubeda</h1>
-    <img class="laImg" src="./IMG20250219204752.jpg">
-    <p>Soc Miguel Rico Ubeda, de Sant Esteve Sesrovires i estudio sistemes microinformatics i xarxes</p>
-    <h2>Sobre mi</h2>
-    <p>M'agrada fer servidors de videojocs i jugarlos, en el meu temps lliure faig exercici, jugu i estudio. El meu objetiu es acabar ser un bon agent de ciberseguretat</p>
-    <h2>Les meves recomenacions</h2>
+<body>       
+    <div class="containerimg" id="containerimg">
+        <img class="laImg" src="./IMG20250219204752.jpg">
+    </div>        
+    <div class="sobremi" id="sobremi">            
+        <p class="textcen" id="textcen">Soc Miguel Rico Ubeda, de Sant Esteve Sesrovires i estudio sistemes microinformatics i xarxes</p>            
+        <p class="textcen" id="textcen">M'agrada fer servidors de videojocs i jugarlos, en el meu temps lliure faig exercici, jugu i estudio. El meu objetiu es acabar ser un bon agent de ciberseguretat</p>            
     </div>
-    <div>
-        <h3>Pelicules</h3>
-        <ol>
+    
+    <h2 class="textcen" id="textcen">Les meves recomenacions</h2>
+    <div>        
+        <ol class="pelicula" id="pelicula">
+            <h3>Pelicules</h3>
             <li>Dragon ball</li>
             <li>Avengers (End game)</li> 
             <li>Smile 2</li>
@@ -26,9 +27,9 @@
             <li>Juegos de ender</li>
         </ol>
     </div>
-    <div>
-        <h3>Musiques</h3>
-        <ul>
+    <div>        
+        <ul class="musica" id="musica">
+            <h3>Musiques</h3>
             <li>Metrik - Hackers</li>
             <li>Dusky - Psychic Life Coach</li>
             <li>Dusky - Cold Heart</li>
@@ -37,10 +38,10 @@
         </ul>
     </div>
     <div>
-        <h2>Horari setmanal</h2>
-        <table>       
+        <h2 class="textcen" id="textcen">Horari setmanal</h2>
+        <table class="tableStyle" id="tableStyle">
             <tr>
-                <th>     
+                <th></th>    
                 <th>Dilluns</th>
                 <th>Dimarts</th>
                 <th>Dimecres</th>
@@ -121,31 +122,30 @@
             </tr>
         </table>
     </div>
+    <div></div>
     <div>
-    <form>
+    <form class="formulario" id="formulario">
         <div>
-            <p>Nom complet</p>
+            <p class="formulario2" id="formulario2">Nom complet</p>
             <input placeholder="Escriu aqui" type="text">
         </div>
         <div>
-            <p>Correu electronic</p>
+            <p class="formulario2" id="formulario2">Correu electronic</p>
             <input placeholder="Escriu aqui" type="email">
         </div>   
         <div>
-            <p>Missatge</p>
+            <p class="formulario2" id="formulario2">Missatge</p>
         <textarea>
         </textarea>
         </div>        
-        <div>
-            <button>
-                <input type="submit">
-            </button>
+        <div>            
+            <input class="buttom" type="submit" name="enviar" id="enviar">            
         </div>  
     </form>
     </div>
-    <div>
-        <a href="https://www.facebook.com">Facebook</a>
-        <a href=https://www.youtube.com>Youtube</a>
+    <div class="enlaces" id="enlaces">
+        <a  class="texten" id="textcen" href="https://www.facebook.com">Facebook</a>
+        <a  class="texten" id="textcen" href=https://www.youtube.com>Youtube</a>
     </div>
 </body>
 </html>
